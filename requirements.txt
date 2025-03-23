@@ -1,6 +1,7 @@
 langchain
 langchain-community
 wikipedia
+pysqlite3-binary
 langchain-text-splitters
 langchain-openai
 streamlit
