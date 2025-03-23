@@ -1,5 +1,5 @@
 langchain
-sqlite
+sqlite3
 langchain-community
 wikipedia
 langchain-text-splitters
