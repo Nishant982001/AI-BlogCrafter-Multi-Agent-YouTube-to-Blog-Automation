@@ -1,4 +1,7 @@
 from crewai import Agent
+__import__('pysqlite3') 
+import sys 
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from crewai import Crew, Process
 from crewai import Task
 from crewai_tools import YoutubeChannelSearchTool
