@@ -8,4 +8,4 @@ streamlit
 langchain_core
 langserve
 crewai
-crewai_tools
+crewai[tools]
