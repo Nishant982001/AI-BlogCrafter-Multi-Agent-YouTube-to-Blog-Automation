@@ -5,7 +5,7 @@ import sqlite3
 from crewai import Agent
 from crewai import Crew, Process
 from crewai import Task
-from crewai.tools import YoutubeChannelSearchTool
+from crewai_tools import YoutubeChannelSearchTool
 from langchain_openai import OpenAI, ChatOpenAI
 import streamlit as st
 
