@@ -25,7 +25,7 @@ available_models = [
 model=st.sidebar.selectbox("Select an AI Model", available_models)
 
 if not openai_api_key:
-    st.info("Please add your nvidia api key to continue")
+    st.info("Please add your openai api key to continue")
     st.stop()
 
 llm = ChatOpenAI(model_name=model, openai_api_key=openai_api_key)
