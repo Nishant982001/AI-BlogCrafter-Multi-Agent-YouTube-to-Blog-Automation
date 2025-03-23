@@ -1,5 +1,6 @@
 langchain
 langchain-community
+python-dotenv
 wikipedia
 pysqlite3-binary
 langchain-text-splitters
