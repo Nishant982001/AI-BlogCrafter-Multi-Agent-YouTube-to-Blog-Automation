@@ -1,14 +1,8 @@
 from crewai import Agent
-__import__('pysqlite3') 
-import sys 
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from crewai import Crew, Process
 from crewai import Task
 from crewai_tools import YoutubeChannelSearchTool
 from langchain_openai import OpenAI, ChatOpenAI
-import os
-from dotenv import load_dotenv
-load_dotenv()
 import streamlit as st
 
 #setting the title
