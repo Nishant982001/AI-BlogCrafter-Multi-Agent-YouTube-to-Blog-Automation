@@ -8,6 +8,9 @@ from crewai import Task
 from crewai_tools import YoutubeChannelSearchTool
 from langchain_openai import OpenAI, ChatOpenAI
 import streamlit as st
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 #setting the title
 st.set_page_config(page_title="AI BlogCrafter: YouTube-to-Blog Automation ", page_icon="📝")
