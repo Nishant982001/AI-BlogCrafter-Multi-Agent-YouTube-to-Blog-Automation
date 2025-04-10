@@ -12,7 +12,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-#setting the title
+#setting the title of the page
 st.set_page_config(page_title="AI BlogCrafter: YouTube-to-Blog Automation ", page_icon="📝")
 st.title("AI BlogCrafter: Multi-Agent YouTube-to-Blog Automation")
 
