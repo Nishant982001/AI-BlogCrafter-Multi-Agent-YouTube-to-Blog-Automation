@@ -10,3 +10,4 @@ langchain_core
 langserve
 crewai
 crewai[tools]
+distutils
